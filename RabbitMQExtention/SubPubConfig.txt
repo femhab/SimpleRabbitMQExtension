@@ -33,8 +33,3 @@ declare IPublishQueue
 
 await _publishQueue.Create("my-first-queue", T);
 where T is the model you are sending.
-
-await endpoint.Send<ItemMessage>(new
-{
-	//define the properties here
-});
