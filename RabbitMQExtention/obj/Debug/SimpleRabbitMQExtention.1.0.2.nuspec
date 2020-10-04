@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SimpleRabbitMQExtention</id>
+    <version>1.0.2</version>
+    <authors>Femhabb</authors>
+    <owners>Femhabb</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple queue default reusable constants for rabbitmq.</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.2">
+        <dependency id="MassTransit" version="6.2.5" exclude="Build,Analyzers" />
+        <dependency id="MassTransit.AspNetCore" version="6.2.5" exclude="Build,Analyzers" />
+        <dependency id="MassTransit.RabbitMQ" version="6.2.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\bin\Debug\netcoreapp2.2\RabbitMQExtention.dll" target="lib\netcoreapp2.2\RabbitMQExtention.dll" />
+  </files>
+</package>

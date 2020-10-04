@@ -1,0 +1,40 @@
+﻿Startup configuration for both rabbitmq producer and subscriber
+
+////Producer => add this to the startup of the producer inside ConfigureServices method/////
+
+services.AddMassTransit(cfg => {
+	cfg.AddBus(provider => RabbitMqBus.ConfigureBus(provider));
+});
+
+services.AddMassTransitHostedService();
+services.AddScoped<IPublishQueue, PublishQueue>();
+
+
+////Consumer => add this to the startup of the consumer inside ConfigureServices method/////
+
+services.AddMassTransit(cfg => {
+
+	cfg.AddConsumer<The ConsumerServiceYouCreated>(); //first methode created
+	cfg.AddConsumer<The ConsumerServiceYouCreated>(); //second method created etc...
+
+	cfg.AddBus(provider => RabbitMqBus.ConfigureBus(provider, (cfg, host)=> 
+	{
+		cfg.ReceiveEndpoint(Your message queue topic here, ep => {
+			ep.ConfigureConsumer<The ConsumerServiceYouCreated>(provider);
+		});
+	}));
+});
+
+services.AddMassTransitHostedService();
+
+////Implementation/////
+
+declare IPublishQueue
+
+await _publishQueue.Create("my-first-queue", T);
+where T is the model you are sending.
+
+await endpoint.Send<ItemMessage>(new
+{
+	//define the properties here
+});

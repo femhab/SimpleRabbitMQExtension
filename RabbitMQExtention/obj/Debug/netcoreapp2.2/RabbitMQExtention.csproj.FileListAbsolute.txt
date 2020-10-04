@@ -1,0 +1,9 @@
+C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\bin\Debug\netcoreapp2.2\RabbitMQExtention.deps.json
+C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\bin\Debug\netcoreapp2.2\RabbitMQExtention.dll
+C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\bin\Debug\netcoreapp2.2\RabbitMQExtention.pdb
+C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\obj\Debug\netcoreapp2.2\RabbitMQExtention.csprojAssemblyReference.cache
+C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\obj\Debug\netcoreapp2.2\RabbitMQExtention.AssemblyInfoInputs.cache
+C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\obj\Debug\netcoreapp2.2\RabbitMQExtention.AssemblyInfo.cs
+C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\obj\Debug\netcoreapp2.2\RabbitMQExtention.csproj.CoreCompileInputs.cache
+C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\obj\Debug\netcoreapp2.2\RabbitMQExtention.dll
+C:\Users\Habeebullah\Documents\Practices\EventSourcing\RabbitMQExtention\RabbitMQExtention\obj\Debug\netcoreapp2.2\RabbitMQExtention.pdb
